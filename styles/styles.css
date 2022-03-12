@@ -16,7 +16,7 @@
 
 html {
   height: 100%;
-  background-color:#E5E5E5;
+  background: color #e5e5e5;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #242424;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -51,7 +51,7 @@ body a {
 /* Pages */
 .page-header {
   color: #000000;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 /* Navigation */
@@ -59,11 +59,11 @@ body a {
   display: flex;
   width: 1060px;
   margin: 0 auto;
-  }
+}
 
 .navigation-list {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   width: 480px;
   margin: 0;
   padding: 0;
@@ -100,7 +100,7 @@ body a {
   text-align: center;
   font-weight: 700;
   color: #000000;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .entrance-button {
@@ -129,7 +129,7 @@ body a {
   background-size: 1200px 485px;
   background-repeat: no-repeat;
   color: #242424;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   text-align: center;
 }
 
@@ -201,16 +201,16 @@ body a {
 }
 
 .advantage-blue-city {
-  background-color:#83B3D3;
-  color: #FFFFFF;
+  background-color: #83b3d3;
+  color: #ffffff;
   width: 400px;
   margin: 0 auto;
   height: 384px;
 }
 
 .advantage-blue-bridge {
-  background-color:#83B3D3;
-  color: #FFFFFF;
+  background-color: #83b3d3;
+  color: #ffffff;
   width: 400px;
   margin: 0 auto;
   height: 384px;
@@ -219,7 +219,7 @@ body a {
 .advantage__image {
   max-width: 800px;
   height: 384px;
-  }
+}
 
 .advantages-title {
   width: 400px;
@@ -264,10 +264,11 @@ body a {
 
 .feature-item {
   list-style-type: none;
-}  
+}
 
-.item-house, .item-gift {
-  background-color: #83b3d31f;
+.item-house,
+.item-gift {
+  background-color: #f0f6fa;
 }
 
 .feature-reason {
@@ -286,15 +287,15 @@ body a {
 }
 
 .item-size {
-  background-color:#83b3d31f;
+  background-color: #f0f6fa;
 }
 
 .item-road {
-  background-color:#83b3d333;
+  background-color: #e7f0f6;
 }
 
 .item-tourists {
-  background-color: #83b3d31f;
+  background-color: #f0f6fa;
 }
 
 /* booking */
@@ -337,7 +338,7 @@ body a {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
-  text-shadow: 0px 4px 4px #00000040;
+  text-shadow: 0 4px 4px #00000040;
   color: #ffffff;
   background-color: #756257;
   text-transform: uppercase;
@@ -357,11 +358,11 @@ body a {
   background-size: 1200px 411px;
   background-position: center;
   background-repeat: no-repeat;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .newsletter-title {
-  width: 720px; 
+  width: 720px;
   height: 36px;
   text-transform: uppercase;
   margin-top: 94px;
@@ -403,30 +404,30 @@ body a {
 .field {
   padding: 0;
   margin: 0;
-  width: 600px; 
+  width: 600px;
   font-size: 18px;
   line-height: 26px;
   padding-left: 20px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0 0 10px;
   border: none;
 }
 
 .inner-field {
   padding: 0;
   margin: 0;
-  background: #F2F2F2;
+  background: #f2f2f2;
   font-size: 18px;
   line-height: 26px;
   padding-left: 20px;
-  width: 600px; 
-  border-radius: 10px 0px 0px 10px;
+  width: 600px;
+  border-radius: 10px 0 0 10px;
   border: none;
 }
 
 .inner-newsletter {
   background-image: none;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .newsletter-button {
@@ -438,10 +439,10 @@ body a {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0 10px 10px 0;
   border: none;
 }
 
@@ -455,10 +456,10 @@ body a {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0 10px 10px 0;
   border: none;
 }
 
@@ -470,7 +471,7 @@ body a {
   text-decoration: none;
   color: #000000;
   text-align: center;
-  width: 720px; 
+  width: 720px;
   height: 50px;
   margin-top: 40px;
   margin-right: 53px;
@@ -480,7 +481,7 @@ body a {
 
 /* footer */
 .page-footer {
-  background-color:  #ffffff;
+  background-color: #ffffff;
   display: flex;
 }
 
@@ -548,7 +549,7 @@ body a {
 .breadcrumbs {
   display: flex;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   list-style-type: none;
   font-size: 16px;
   font-weight: 400;
@@ -561,7 +562,8 @@ body a {
   height: 12px;
   margin-top: 5px;
   margin-right: 26px;
-  align-self:center;
+  margin-bottom: 45px;
+  align-self: center;
 }
 
 .breadcrumbs-item-hotels {
@@ -571,10 +573,21 @@ body a {
   margin-bottom: 45px;
 }
 
-.breadcrumbs-link, .clear__button {
-  color: #FFFFFF;
+.breadcrumbs-link,
+.clear__button {
+  color: #ffffff;
   text-decoration: none;
 }
+
+.breadcrumbs-icon::before {
+  content: "";
+  display: block;
+  align-self: flex-start;
+  background: url("../images/icons/icon-1.svg");
+  width: 12px;
+  height: 12px;
+}
+
 
 .container {
   font-size: 18px;
@@ -590,7 +603,7 @@ body a {
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 35px;
   margin-left: 71px;
   margin-bottom: 5px;
@@ -602,13 +615,13 @@ body a {
   background-image: url("../images/catalog-background.jpg");
   background-size: 1200px 408px;
   background-repeat: no-repeat;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
 }
 
 .hotel-filter {
-  justify-content:space-around
+  justify-content: space-around;
 }
 
 .hotel-filter-type {
@@ -629,7 +642,7 @@ body a {
   margin-top: 0.35em;
   margin-bottom: 83px;
   border: none;
-}  
+}
 
 .right-wrapper {
   display: flex;
@@ -637,7 +650,7 @@ body a {
 
 .hotel-filter-form {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .sort-line {
@@ -662,14 +675,14 @@ body a {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
-  border: 2px solid #E6E6E6;
+  border: 2px solid #e6e6e6;
 }
 
 .button-light {
   width: 48px;
   height: 48px;
   margin-bottom: 53px;
-  margin-right: 8px; 
+  margin-right: 8px;
 }
 
 .button-light:nth-child(3n) {
@@ -679,8 +692,8 @@ body a {
 /* Hotels */
 .index-columns-hotels {
   color: #242424;
-  background-color: #FFFFFF;
-  background-image:none;
+  background-color: #ffffff;
+  background-image: none;
   width: 1058px;
   height: 1040px;
   margin: 0 auto;
@@ -694,7 +707,7 @@ body a {
   text-align: center;
   width: 1037px;
   height: 438px;
-  }
+}
 
 .catalog-list-result {
   display: flex;
@@ -743,6 +756,8 @@ body a {
   padding: 0;
   width: 1056px;
   height: 120px;
+  margin-top: 54px;
+  text-align: center;
 }
 
 /* Pagination */
@@ -772,7 +787,7 @@ body a {
 .pagination-item {
   width: 55px;
   height: 55px;
-  background: #83B3D3;
+  background: #83b3d3;
   border-radius: 4px;
 }
 
@@ -789,7 +804,7 @@ body a {
 
 .pagination-current {
   color: #242424;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .search-results {
@@ -817,7 +832,7 @@ body a {
   padding-left: 17px;
   margin-top: 3px;
   margin-bottom: 4px;
-  border: 2px solid #E6E6E6;
+  border: 2px solid #e6e6e6;
 }
 
 /* Button */
@@ -840,7 +855,7 @@ body a {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   text-transform: uppercase;
   border-radius: 4px;
   padding: 9px 30px;
@@ -852,7 +867,7 @@ body a {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #7DB54F; 
+  background-color: #7db54f;
   text-transform: uppercase;
   border-radius: 4px;
   padding: 9px 30px;
@@ -864,12 +879,11 @@ body a {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #83B3D3;
+  background-color: #83b3d3;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
   padding: 17px 237px;
-  text-align: center;
 }
 
 .item-rating-indicator {
@@ -878,17 +892,8 @@ body a {
   font-weight: 400;
   text-align: center;
   color: #242424;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   text-transform: uppercase;
   border-radius: 4px;
   padding: 9px 30px;
 }
-
-.load-more {
-  margin-top: 54px;
-  text-align: center;
-}
-
-
-
-
