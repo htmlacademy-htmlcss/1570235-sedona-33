@@ -700,22 +700,13 @@ body a {
 }
 
 .catalog-list-results {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 339px 339px 339px;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
-  width: 1037px;
-  height: 438px;
-}
-
-.catalog-list-result {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  text-align: center;
-  width: 1056px;
-  height: 438px;
+  gap: 10px; 
+  margin-bottom: 34px;
 }
 
 .catalog-item {
@@ -756,7 +747,6 @@ body a {
   padding: 0;
   width: 1056px;
   height: 120px;
-  margin-top: 54px;
   text-align: center;
 }
 
