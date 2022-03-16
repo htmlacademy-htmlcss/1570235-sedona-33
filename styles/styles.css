@@ -118,6 +118,7 @@ body a {
   margin-top: 14px;
   margin-bottom: 14px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .main-container {
@@ -344,6 +345,7 @@ body a {
   text-transform: uppercase;
   border-radius: 10px;
   margin: 0 auto 93px;
+  cursor: pointer;
 }
 
 /* Newsletter */
@@ -444,6 +446,7 @@ body a {
   text-transform: uppercase;
   border-radius: 0 10px 10px 0;
   border: none;
+  cursor: pointer;
 }
 
 .newsletter-button-inner {
@@ -461,6 +464,7 @@ body a {
   text-transform: uppercase;
   border-radius: 0 10px 10px 0;
   border: none;
+  cursor: pointer;
 }
 
 .contacts-phone {
@@ -593,6 +597,7 @@ body a {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+  width: 299px;
 }
 
 /* Catalog */
@@ -683,6 +688,7 @@ body a {
   height: 48px;
   margin-bottom: 53px;
   margin-right: 8px;
+  button-light;
 }
 
 .button-light:nth-child(3n) {
@@ -731,6 +737,12 @@ body a {
   margin-right: 111px;
   margin-left: 20px;
   text-align: left;
+}
+
+.hotel-control {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
 }
 
 .item-rating {
@@ -830,13 +842,16 @@ body a {
   font-size: 16px;
   line-height: 37px;
   font-weight: 700;
+  width: 133px;
   text-align: center;
   color: #ffffff;
   background-color: #756257;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 9px 30px;
+  padding: 9px 24px;
   margin-right: 25px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .light-button {
@@ -848,7 +863,8 @@ body a {
   background-color: #83b3d3;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 9px 30px;
+  padding: 9px 21px;
+  cursor: pointer;
 }
 
 .green-button {
@@ -860,7 +876,8 @@ body a {
   background-color: #7db54f;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 9px 30px;
+  padding: 9px 21px;
+  cursor: pointer;
 }
 
 .load-more__button {
@@ -874,6 +891,7 @@ body a {
   text-transform: uppercase;
   border-radius: 4px;
   padding: 17px 237px;
+  cursor: pointer;
 }
 
 .item-rating-indicator {
