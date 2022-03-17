@@ -16,7 +16,7 @@
 
 html {
   height: 100%;
-  background: color #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 body {
@@ -688,7 +688,6 @@ body a {
   height: 48px;
   margin-bottom: 53px;
   margin-right: 8px;
-  button-light;
 }
 
 .button-light:nth-child(3n) {
@@ -711,7 +710,7 @@ body a {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  gap: 10px; 
+  gap: 10px;
   margin-bottom: 34px;
 }
 
@@ -742,7 +741,6 @@ body a {
 .hotel-control {
   margin-top: 16px;
   margin-bottom: 16px;
-
 }
 
 .item-rating {
